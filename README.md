@@ -1,6 +1,6 @@
 ## Yoguai
 
-Plataforma desarrollada en Laravl 5.8, para realizar pedidos online de yogurt y sistema de administración.
+Plataforma desarrollada en Laravel 5.8, para realizar pedidos online de yogurt y sistema de administración.
 
 ## Funcionalidades
 
