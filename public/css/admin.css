@@ -1,0 +1,422 @@
+body{
+  background-color: #edf1f5 !important;
+}
+#nav-bar{
+	background: #a10166;
+  border-right: 0;
+  top:69px !important;
+}
+#nav-bar a{
+	color: #fff;
+	font-size: 16px;
+}
+#nav-bar a:focus, #nav-bar a:hover, #nav-bar ul li.active > a{
+  background-color: #88ad08;
+  outline: none;
+}
+#nav-bar ul li.active > ul li a.active, #nav-bar ul li.active > ul li a{
+  background: #a10166;
+}
+#nav-bar ul li{
+  border-bottom: 0;
+}
+#nav-bar a span{
+  top: 10px;
+  position: relative;
+}
+#nav-bar a h6{
+  font-size: 16px;
+  margin: 0;
+  display: inline-block;
+  line-height: 2;
+}
+.navbar-sty-top{
+  height: 69px;
+  background: #fff;  
+  padding-right: 34px;  
+}
+.navbar-sty-top .logo-admin{
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  top: -9px;
+}
+.content-right-main{
+  background: #edf1f5;
+}
+.sub-cont-main{
+  padding: 50px;
+  height: 532px;
+}
+.sub-cont-main > h2{
+  color: #8c8c8c;
+  font-size: 60px;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+}
+.sub-cont-main p{
+  color: #8c8c8c;
+  font-size: 17px;
+  text-align: center;
+  line-height: 1;
+  padding: 8px 20px;
+  margin-bottom: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 770px;
+  margin: 0 auto;
+}
+.content-main{
+  background: #fff;
+  margin: 20px;
+}
+.sub-nav-item{
+  background: #a10166;
+  padding: 10px 20px;
+  color: #fff;
+  line-height: 2;
+}
+.sub-nav-item h4{
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+}
+.users, .sabores, .pedidos{
+  padding: 20px;
+}
+.proveedores{
+  padding: 20px;
+  overflow-x: scroll;
+  height: auto;
+  width: 100%;
+}
+.proveedores .table-sty{
+  width: 1600px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.proveedores .table-sty tbody  tr td{line-height: 1.3 !important;}
+.resize-img{
+  width: 60px;
+  height: 60px;
+  margin-right: 8px;
+  display: inline-block;
+}
+.table-sty thead tr th{
+  text-align: center;
+}
+.table-sty tbody  tr td{
+  text-align: center;
+  line-height: 4 !important;
+  vertical-align: middle !important;
+} 
+.table-sty tbody  tr td.first-item-table{
+  text-align: left !important;
+}
+.btn-accion{
+  background: #a10166;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  border-radius: 15px !important;
+  margin: 15px auto 12px !important;
+  display: block !important;
+  font-size: 20px !important;
+  outline: none;
+}
+#conten-form{
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+}
+#conten-form .form-control{
+  border-radius: 10px;
+  height: 40px;
+  font-size: 15px;
+}
+#conten-form textarea.form-control{
+  height: auto !important;
+  resize: none;
+}
+#nav-bar .badge{
+  background-color: #68004b;
+}
+
+.menu-aguest-right li ul > li > a:hover, .menu-aguest-right li ul > li > a:focus{
+  background: #f5f5f5 !important;
+}
+.menu-aguest-right li ul > li > a{
+  background: #ffff !important;
+  color: #333 !important;
+  display: block;
+  border-radius: 0 !important;
+  margin: 5px 0 0;
+  padding: 6px 15px;
+}
+.menu-aguest-right li ul > li{display: block;}
+.menu-aguest-right .media{
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.menu-aguest-right .dropdown-menu{
+  width: 230px;
+  left: -47px;
+}
+.menu-aguest-right .media .media-body p{
+  margin-bottom: 9px;
+  line-height: 1.4;
+}
+.menu-aguest-right .media .media-body a{
+  color: #fff !important;
+  background: #a01568;
+  border-radius: 17px;
+  font-size: 14px;
+  display: inline-block;
+  padding: 6px 18px;
+  text-decoration: none !important;
+}
+.menu-aguest-right .media .media-body a:hover, .menu-aguest-right .media .media-body a:focus{background: #87ad26 !important;}
+
+
+/* ESTILOS FILE INPUT*/
+.inputfile, .inputfile:focus {
+  width: 174px;
+  height: 38px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  outline: none !important;
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 1.25rem;
+    /* 20px */
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+.inputfile-1 + label {
+    color: #f1e5e6;
+    background-color: #88ad08;
+    font-size: 18px;
+    font-weight: 100;
+    border-radius: 28px;
+    outline: none !important;
+}
+
+.inputfile-1:focus + label,
+.inputfile-1.has-focus + label,
+.inputfile-1 + label:hover {
+    background-color: #a10166;
+}
+.thumb {
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+/* FILTROS */
+.search_filter{
+  margin: 20px 0;
+}
+.search_filter .btn-search,.search_filter .btn-search:focus{
+  height: 45px;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+  background: #88ad08 !important;
+  border-top-right-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  font-size: 16px;
+}
+.search_filter .btn-search:hover{background: #a10166 !important;}
+/*FILTROS USUARUIO*/
+.search_filter #nombre_usu, .search_filter #correo_usu, .search_filter #ciudad_usu{
+  width: 33.33333333333% !important;
+  height: 45px !important;
+  font-size: 16px;
+}
+.search_filter #nombre_usu{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.search_filter #correo_usu{
+  border-left: 0;
+}
+/*FILTROS SABOR*/
+.search_filter #nombre_sabor, .search_filter #estado_sabor{
+  width: 50% !important;
+  height: 45px !important;
+  font-size: 16px;
+}
+.search_filter #nombre_sabor{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 0;
+}
+.search_filter #nombre_pro{
+  height: 45px !important;
+  font-size: 16px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 0;
+}
+
+/*FILTROS PROVEEDOR*/
+.search_filter #nombre_prov, .search_filter #nombre_prod, .search_filter #ciudad_prov{
+  width: 33.33333333333% !important;
+  height: 45px !important;
+  font-size: 16px;
+}
+.search_filter #nombre_prov{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 0;
+}
+.search_filter #nombre_prod{
+  border-right: 0;
+}
+
+/* FILTROS PEDIDOS */
+#codigo, #fecha_ini, #fecha_fin, #estados{
+  width: 50% !important;
+  height: 45px !important;
+  font-size: 16px;
+}
+#codigo{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-right: 0;
+}
+#fecha_ini, #fecha_fin, #estados{
+  border-right: 0;
+}
+
+/* SELECT ESTADO PEDIDOS */
+.select_estado{
+  border-radius: 15px !important;
+}
+.bage{
+  border-radius: 20px;
+  display: inline;
+  padding: 10px 15px;
+  color: #fff;
+}
+.bage-default{
+  background: #fff;
+  color: #444;
+  border: 1px solid #c1c1c1;
+}
+.bage-despachado{
+  background: #ffc36d;
+}
+.bage-cancelado{
+  background: #e54545;
+}
+.bage-pagado{
+  background: #53e69d;
+}
+
+/* EDICION PEDIDO */
+#conten-form .content-valor #text_valor {
+    display: block;
+    background: rgb(135, 173, 38);
+    color: #fff;
+    border-radius: 10px;
+    padding: 9px 20px;
+    font-size: 16px;
+    text-align: center;
+}
+#conten-form .content-title {
+    border-bottom: 3px solid #838383;
+    margin-bottom: 25px;
+}
+#conten-form .content-title h2 {
+    font-size: 22px;
+    color: #424242;
+    border-bottom: 3px solid #87ad26;
+    margin: 0 0 -3px 0;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-right: 10px;
+}
+/* MODAL RESERVANTES */
+#modalReservante .form-group > div{
+  display: inline-block;
+}
+#modalReservante .form-group{margin-bottom: 0;}
+#modalReservante .modal-header{
+  border-bottom: 2px solid #828282;
+  padding: 0;
+}
+#modalReservante .modal-header .modal-title{
+  display: inline-block;
+  border-bottom: 2px solid #a10166;
+  margin-bottom: -2px;
+  font-size: 22px;
+}
+#modalReservante .modal-body{
+  padding: 15px 0;
+}
+#modalReservante .modal-footer{
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+#modalReservante .modal-content{
+  padding: 20px 35px;
+}
+#modalReservante .btn-modal-cerrar{
+    background: #a10166;
+    color: #fff !important;
+    padding: 10px 20px !important;
+    border-radius: 15px !important;
+    margin: 0 auto !important;
+    display: block !important;
+    font-size: 16px !important;
+    outline: none;
+}
+#modalReservante .modal-cust-wit{
+  width: 420px;
+}

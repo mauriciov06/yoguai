@@ -1,0 +1,2 @@
+{!!Form::text('codigo',null,['id'=>'codigo', 'class'=>'form-control', 'placeholder'=>"Codigo del pedido"])!!}
+{!!Form::select('estado',$estados, null, ['id'=>'estados', 'class'=>'form-control', 'placeholder'=>"Seleccionar estado"])!!}
